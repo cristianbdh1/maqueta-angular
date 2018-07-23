@@ -4,6 +4,7 @@ import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import {HttpModule} from '@angular/http';
 import {ToastrModule} from 'ngx-toastr';
+import {ChartsModule} from 'ng2-charts';
 
 import { AppComponent } from './app.component';
 import { routing, appRoutingProviders } from './app.routing';
@@ -20,6 +21,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HttpClientModule,
     HttpModule,
     routing,
+    ChartsModule,
     ToastrModule.forRoot()
   ],
   providers: [

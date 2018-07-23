@@ -1,27 +1,25 @@
-# CargarImagenes
+# Maqueta Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+maqueta de angular 6
 
-## Development server
+instalar node.js node -v npm -v
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+npm unistall -g @angular/cli
 
-## Code scaffolding
+bug - limpia cache - cambios grandes: npm cache clean -force
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+npm install -g @angular/cli ng new ap cd ap ng serve --open
 
-## Build
+visual code
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ng generate component nombrecomponente ng g service nombreservicio ng g class nombreclase
 
-## Running unit tests
+dentro de la carpeta pesada
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install --save bootstrap npm install jquery --save npm install font-awesome npm install ng2-charts --save and add into index https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js
 
-## Running end-to-end tests
+https://www.youtube.com/watch?v=Ous6v0r7kXc&t=3612s minuto 52:50 https://github.com/scttcper/ngx-toastr npm install ngx-toastr --save basura npm install @angular/animations --save
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ng build
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+recuperar node_mode npm install
